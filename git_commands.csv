@@ -1,0 +1,41 @@
+Command,Explanation
+git --version,Displays the installed Git version.
+git help,Lists all Git commands or provides help for a specific command.
+git init,Initializes a new Git repository in the current directory.
+git clone <repository-url>,Clones a repository to your local machine.
+git status,Displays the working tree status.
+git log,Shows the commit history of the repository.
+git branch,Lists all branches in the repository.
+git branch <branch-name>,Creates a new branch.
+git checkout <branch-name>,Switches to a specific branch.
+git checkout -b <branch-name>,Creates and switches to a new branch.
+git merge <branch-name>,Merges a branch into the current branch.
+git branch -d <branch-name>,Deletes a branch.
+git add <file>,Stages a file for the next commit.
+git add .,Stages all changes for the next commit.
+git commit -m '<commit-message>',Commits staged changes with a message.
+git commit --amend,Amends the previous commit.
+git reset <file>,Unstages a file from the staging area.
+git reset --hard,"Resets the repository to the last commit, discarding all changes."
+git remote -v,Shows the remote repository URLs.
+git remote add origin <url>,Adds a new remote repository.
+git push,Pushes changes to the remote repository.
+git push origin <branch-name>,Pushes changes to a specific branch in the remote repository.
+git pull,Pulls changes from the remote repository.
+git fetch,Fetches updates from the remote repository without merging.
+git tag,Lists all tags in the repository.
+git tag <tag-name>,Creates a new tag.
+git push origin <tag-name>,Pushes a tag to the remote repository.
+git revert <commit-id>,Reverts a specific commit.
+git stash,Stashes current changes without committing.
+git stash apply,Applies stashed changes.
+git config --global user.name '<your-name>',Sets the global username for Git.
+git config --global user.email '<your-email>',Sets the global email for Git.
+git config --list,Lists all Git configuration settings.
+git cherry-pick <commit-id>,Applies changes from a specific commit onto the current branch.
+git rebase <branch-name>,Rebases the current branch onto another branch.
+git reflog,Displays the reference log (history of actions).
+git blame <file>,Shows who made changes to each line of a file.
+git diff,Displays differences between files or commits.
+git diff <branch-name>,Shows differences between the current branch and another branch.
+git archive --format=zip --output=<file>.zip <branch-name>,Archives a branch into a zip file.
